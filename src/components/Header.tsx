@@ -11,10 +11,14 @@ const HeaderLayout = styled.div`
   flex-wrap: wrap;
 `;
 
-function Header() {
+interface HeaderProps {
+  onLogoClick: () => void;
+}
+
+function Header({ onLogoClick }: HeaderProps): React.ReactElement {
   return (
     <HeaderLayout>
-      <GetFlixLogo />
+      <GetFlixLogo onClick={onLogoClick} />
       <ThemeToggler />
     </HeaderLayout>
   );

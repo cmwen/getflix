@@ -8,11 +8,13 @@ import {
 import { Outlet } from "react-router-dom";
 import { NotificationsProvider } from "@mantine/notifications";
 import Header from "./components/Header";
+import { useNavigate } from "react-router-dom";
 
 function App() {
   const [colorScheme, setColorScheme] = useState<ColorScheme>("light");
   const toggleColorScheme = (value?: ColorScheme) =>
     setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
+  const navigate = useNavigate();
 
   return (
     <ColorSchemeProvider
@@ -27,7 +29,13 @@ function App() {
         <NotificationsProvider>
           <AppShell
             padding="md"
-            header={<Header />}
+            header={
+              <Header
+                onLogoClick={() => {
+                  navigate("/");
+                }}
+              />
+            }
             styles={(theme) => ({
               main: {
                 backgroundColor:

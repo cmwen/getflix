@@ -19,9 +19,9 @@ function MovieDetail({
   return (
     <>
       <Styled.MainLayout>
-        <div>
+        <Styled.ImageMask>
           <img src={Poster} alt={Title}></img>
-        </div>
+        </Styled.ImageMask>
         <Styled.InfoLayout>
           <Styled.Label>Title</Styled.Label>
           <Styled.Value>{Title}</Styled.Value>

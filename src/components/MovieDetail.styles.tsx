@@ -23,3 +23,9 @@ export const Label = styled.span`
 `;
 
 export const Value = styled.span``;
+
+export const ImageMask = styled.div`
+  mask-image: radial-gradient(black 30%, rgba(0, 0, 0, 0.6));
+  border: solid 6px;
+  border-radius: 3px;
+`;
