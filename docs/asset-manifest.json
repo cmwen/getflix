@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.6c6e410f.js",
-    "static/js/787.749e50ce.chunk.js": "/static/js/787.749e50ce.chunk.js",
-    "index.html": "/index.html",
-    "main.6c6e410f.js.map": "/static/js/main.6c6e410f.js.map",
-    "787.749e50ce.chunk.js.map": "/static/js/787.749e50ce.chunk.js.map"
+    "main.js": "/getflix/static/js/main.6c6e410f.js",
+    "static/js/787.749e50ce.chunk.js": "/getflix/static/js/787.749e50ce.chunk.js",
+    "index.html": "/getflix/index.html",
+    "main.6c6e410f.js.map": "/getflix/static/js/main.6c6e410f.js.map",
+    "787.749e50ce.chunk.js.map": "/getflix/static/js/787.749e50ce.chunk.js.map"
   },
   "entrypoints": [
     "static/js/main.6c6e410f.js"
