@@ -1,3 +1,31 @@
+# Reame
+
+## Live Demo
+
+This app has been deployed to github pages, but due to the host url, the page will have small issue for the first time load.
+
+[See here](https://cmwen.github.io/getflix/)
+
+## How to run this app locally
+
+`yarn` is recommended to use to run this app locally.
+
+```bash
+yarn start
+```
+
+App should avaiable at `http://localhost:3000`.
+
+## Dependencies
+
+- React - React framework
+- Mantine - Design system
+- [React-Router](https://reacttraining.com/react-router/web/guides/quick-start) - Router
+- Axios - HTTP client
+- Axios Hooks - Axios with hooks
+- React Router Dom - Router
+- Styled Components - CSS in JS
+
 ## Task for the candidate  
 Create a single-page web application - Getflix - that allows a user to enter criteria into a search input field and display matching titles on the page. For each search result, show the title, the poster, and year it released.  
 Clicking on a title should bring up a detailed view of the title - plot, cast, etc.  
