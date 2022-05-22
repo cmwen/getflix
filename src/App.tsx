@@ -27,9 +27,7 @@ function App() {
         <NotificationsProvider>
           <AppShell
             padding="md"
-            header={
-              <Header />
-            }
+            header={<Header />}
             styles={(theme) => ({
               main: {
                 backgroundColor:

@@ -1,10 +1,14 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import GetFlixLogo from './GetFlixLogo';
-import { MemoryRouter } from 'react-router-dom';
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import GetFlixLogo from "./GetFlixLogo";
+import { MemoryRouter } from "react-router-dom";
 
-test('Logo should render', () => {
-  render(<MemoryRouter><GetFlixLogo /></MemoryRouter>);
+test("Logo should render", () => {
+  render(
+    <MemoryRouter>
+      <GetFlixLogo />
+    </MemoryRouter>
+  );
   const linkElement = screen.getByText(/Get Flix/i);
   expect(linkElement).toBeInTheDocument();
 });
