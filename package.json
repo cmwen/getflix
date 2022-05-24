@@ -2,6 +2,7 @@
   "name": "getflix",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cmwen.github.io/getflix",
   "dependencies": {
     "@mantine/core": "^4.2.6",
     "@mantine/hooks": "^4.2.6",
